@@ -1,0 +1,21 @@
+20-05
+1> Y = {id,{nome,joao},{idade,26},{cabelo,castanho}}.
+{id,{nome,joao},{idade,26},{cabelo,castanho}}
+2> {id,_,{idade,1},_} - Y.
+* 1: variable '_' is unbound
+3> {id,_,{idade,I},_} - Y.
+* 1: variable '_' is unbound
+4> {id,_,{idade,I},_} = Y.
+{id,{nome,joao},{idade,26},{cabelo,castanho}}
+5> I
+5> .
+26
+6> [H|T] = [1,2,3,4,5,6]
+6> .
+[1,2,3,4,5,6]
+7> H
+7> .
+1
+8> T.
+[2,3,4,5,6]
+
